@@ -15,7 +15,8 @@ public class LogAspect {
     // 切入点， 其中execution 用于使用切面的连接点
     // 用方法：execution(方法修饰符(可选) 返回类型 方法名 参数 异常模式(可选)) ，可以使用通配符匹配字符，*可以匹配任意字符。
     @Pointcut("execution(public * com.sls.controller.*.*(..))")
-    public void aspect(){}
+    public void aspect() {
+    }
 
     // 在方法前执行
     @Before("aspect()")

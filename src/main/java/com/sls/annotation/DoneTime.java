@@ -7,6 +7,7 @@ import java.lang.annotation.Target;
 
 /**
  * 自定义注解
+ *
  * @author sls
  */
 @Target({ElementType.METHOD, ElementType.TYPE})
